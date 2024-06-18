@@ -1,3 +1,5 @@
+from refactoring.view_constructor import ViewConstructor
+
 MOLSTAR_PREFIX = '''
     <html lang="en">
         <head>
@@ -222,7 +224,7 @@ def bad_design_construct_view(is_ligand):
 
 
 # result = bad_design_construct_view(True)
-result = bad_design_construct_view(False)
+result = ViewConstructor.construct_protein_view()
 
-with open("result.html", "w") as e:
+with open("result.html", "w") as e:x
     e.write(result)

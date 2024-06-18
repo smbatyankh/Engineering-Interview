@@ -1,0 +1,15 @@
+{
+  "protein_path": "./files/proteins/5HOB.pdb",
+  "pocket_paths": {
+    "yellow": "./files/pockets/5HOB_yellow_pocket.pdb",
+    "magenta": "./files/pockets/5HOB_magenta_pocket.pdb",
+    "red": "./files/pockets/5HOB_red_pocket.pdb",
+    "blue": "./files/pockets/5HOB_blue_pocket.pdb",
+    "green": "./files/pockets/5HOB_green_pocket.pdb"
+  },
+  "protein_style_type": "cartoon",
+  "protein_surface_alpha": 0.4,
+  "pocket_style_type": "gaussian-surface",
+  "pocket_surface_alpha": 1
+
+}
